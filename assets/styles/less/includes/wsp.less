@@ -1,3 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.wsp-navbar-brand {
+  padding-top: 0 !important;
+}
+
 .wsp-navbar > li > a {
   padding-left: 20px;
   padding-right: 20px;
@@ -9,7 +20,6 @@
 
 .wsp-nav-title {
   color: @main_palette !important;
-  line-height: 50px !important;
   margin-left: 5px !important;
 }
 
@@ -29,8 +39,8 @@ required css to make things work
 
 .parallax-section {
 
-  margin:0;
-  width:100%;
+  //margin:0;
+  //width:100%;
 
   //background-size: cover;
   //background-position: 50% 50%;
@@ -50,6 +60,13 @@ required css to make things work
   height: @section1_heigh;
 }
 
+.section2 {
+  margin-top: 0;
+  height: @section2_heigh;
+  background-color: #272333;
+  text-align: center;
+}
+
 
 .mr-px-img {
 
@@ -59,8 +76,8 @@ required css to make things work
   height: 100%;
 
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 
   display: block;
   overflow: hidden;
@@ -77,8 +94,8 @@ required css to make things work
   /* basic scaling and positioning rules which will be overwriten by javascript */
 
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 
   width: 100%;
   height: auto;
@@ -86,9 +103,7 @@ required css to make things work
 }
 
 .on-parallax {
-  //width: 100%;
   background-size: cover;
-  //height: 768px;
   background-color: rgba(39,35,51,0.8);
   .section1 {
     height: @section1_heigh;
@@ -138,12 +153,14 @@ required css to make things work
 
 
 .text-red {
-  text-align: center;
+  padding-top: 40px;
+  //text-align: center;
   color: red;
 }
 
 .text-white {
-  text-align: center;
+  padding-top: 40px;
+  //text-align: center;
   color: white;
 }
 
@@ -152,7 +169,8 @@ required css to make things work
 }
 
 .text-yellow {
-  text-align: center;
+  padding-top: 40px;
+  //text-align: center;
   color: yellow;
 }
 
@@ -187,7 +205,7 @@ required css to make things work
 }
 
 .wsp-btn-md {
-  font-size: 4rem;;
+  font-size: 3rem;;
 }
 
 
