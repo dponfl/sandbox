@@ -374,6 +374,10 @@ gulp.task('build-dev', ['clear-dev'], pipes.buildIndexDev);
 gulp.task('start-dev', ['serverDev', 'watchApp']);
 
 
+// Build app and start server
+gulp.task('lift-dev', ['build-dev'], function () {
+	gulp.start('start-dev');
+});
 
 
 
