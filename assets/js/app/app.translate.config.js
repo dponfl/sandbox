@@ -92,8 +92,10 @@ function translateConfig ($translateProvider) {
 
 
     // Home - Main
-    'HOME_TITLE': 'Camel Car Hire',
-    'HOME_SUBTITLE': 'We will not disappoint you',
+    'HOME_TITLE_01': 'Camel Car Hire',
+    'HOME_SUBTITLE_01': 'We will not disappoint you',
+    'HOME_TITLE_02': 'Camel Car Hire - we\'ll do our best for you',
+    'HOME_SUBTITLE_02': 'If you ask our clients they reply: the perfect cars for the reasonable price',
     'BTN_KNOWMORE': 'More info',
     'BTN_BOOK': 'Book a car',
 
@@ -241,8 +243,10 @@ function translateConfig ($translateProvider) {
 
 
     // Home - Main
-    'HOME_TITLE': 'Camel Car Hire',
-    'HOME_SUBTITLE': 'Мы не разочаруем вас',
+    'HOME_TITLE_01': 'Camel Car Hire',
+    'HOME_SUBTITLE_01': 'Мы не разочаруем вас',
+    'HOME_TITLE_02': 'Camel Car Hire - лучшее для Вас!',
+    'HOME_SUBTITLE_02': 'Спросите наших клиентов о Camel Car Hire и они вам ответят: разумные цены при безупречном качестве',
     'BTN_KNOWMORE': 'Узнать больше',
     'BTN_BOOK': 'Заказать авто',
 

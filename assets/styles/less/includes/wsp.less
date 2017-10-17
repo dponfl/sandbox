@@ -5,6 +5,48 @@ html, body {
   overflow-x: hidden;
 }
 
+/*
+***   Angular Responsive Parallax   ***
+ */
+
+.parallax-section {
+  position: relative;
+  z-index: 1;
+}
+
+.mr-px-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  z-index: -999;
+  padding: 0;
+  margin: 0;
+}
+
+.mr-px-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.on-parallax {
+  background-size: cover;
+  background-color: rgba(39,35,51,0.8);
+  .section1 {
+    height: @section1_heigh;
+  }
+}
+
+/*
+***   Navbar   ***
+ */
+
 .wsp-navbar-brand {
   padding-top: 0 !important;
 }
@@ -29,102 +71,17 @@ html, body {
   text-decoration: solid !important;
 }
 
-// Angular Responsive Parallax
 
 /*
+***   Sections   ***
+ */
 
-required css to make things work
-
-*/
-
-.parallax-section {
-
-  //margin:0;
-  //width:100%;
-
-  //background-size: cover;
-  //background-position: 50% 50%;
-  //background-repeat: no-repeat;
-
-  /* position relative is needed as a references for child element positions */
-
-  position: relative;
-
-  /* zindex needed to put content in front of the images */
-
-  z-index: 1;
-
-}
+/*
+***   Section 1   ***
+ */
 
 .section1 {
   height: @section1_heigh;
-}
-
-.section2 {
-  margin-top: 0;
-  //height: @section2_heigh;
-  background-color: @lighter-pastel-primary-0;
-  text-align: center;
-}
-
-
-.mr-px-img {
-
-  /* This container is needed for cropping and image positioning if parallax fx is disabled */
-
-  width: 100%;
-  height: 100%;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  display: block;
-  overflow: hidden;
-
-  z-index: -999;
-
-  padding: 0;
-  margin: 0;
-
-}
-
-.mr-px-img img {
-
-  /* basic scaling and positioning rules which will be overwriten by javascript */
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: auto;
-
-}
-
-.on-parallax {
-  background-size: cover;
-  background-color: rgba(39,35,51,0.8);
-  .section1 {
-    height: @section1_heigh;
-  }
-}
-
-.gap-parallax {
-  padding: 50px;
-  background-color: #272333;
-  text-align: center;
-}
-
-.gap-big-parallax {
-  padding:100px;
-  background-color: #272333;
-  display: table;
-}
-
-.gap-big-parallax-item {
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .wsp-home-header {
@@ -139,7 +96,7 @@ required css to make things work
   text-align: center;
   font-weight: 500;
   font-size: 5rem;
-  margin-bottom: 20px;
+  margin-bottom: 7%;
 }
 
 .wsp-home-center {
@@ -151,78 +108,63 @@ required css to make things work
   }
 }
 
-
-.text-red {
-  padding-top: 40px;
-  //text-align: center;
-  color: red;
-}
-
-.text-white {
-  padding-top: 40px;
-  //text-align: center;
-  color: white;
-}
-
 .text-vertical-center {
   padding-top: 5%;
 }
 
-.text-yellow {
-  padding-top: 40px;
-  //text-align: center;
-  color: yellow;
-}
-
-.img-container {
-  width: 100%;
-  height: 768px;
-}
-
-.wsp-section002-block-message01 {
-  margin-top: 30px;
-  font-size: 3rem;
-  //color: @lighter-pastel-secondary-2-4;
-  color: @deep-colors-primary-0;
-  text-align: center;
-  font-weight: 700;
-}
-
-.wsp-section002-block-message02 {
-  margin-top: 30px;
-  margin-bottom: 40px;
-  font-size: 5rem;
-  //color: @lighter-pastel-secondary-1-4;
-  color: @lighter-pastel-secondary-2-2;
-  font-weight: 900;
-}
-
-.wsp-section002-block-btn {
-  display: table;
-
-  .wsp-section-btn {
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-  }
-}
-
-/*
-   Bottons
- */
-
-.wsp-section-btn {
+.wsp-section01-btn {
   text-align: justify;
   .wsp-btn {
     display: inline-block !important;
     border-radius: 100px !important;
-    margin-top: 30px !important;
+    //margin-top: 30px !important;
     padding-left: 40px !important;
     padding-right: 40px !important;
   }
 }
 
-.wsp-section-btn:after {
+.wsp-section01-btn:after {
+  content: '' !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+/*
+***   Section 2   ***
+ */
+
+.section2 {
+  background-color: @lighter-pastel-primary-0;
+  text-align: center;
+}
+
+.wsp-section002-block-message01 {
+  padding-top: 15%;
+  font-size: 5.2rem;
+  color: @lighter-pastel-secondary-2-2;
+  font-weight: 900;
+}
+
+.wsp-section002-block-message02 {
+  padding-top: 20%;
+  font-size: 3rem;
+  color: @deep-colors-primary-0;
+  font-weight: 700;
+}
+
+.wsp-section02-btn {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  display: block;
+  margin: 0 auto;
+  .wsp-btn {
+    border-radius: 100px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+}
+
+.wsp-section02-btn:after {
   content: '' !important;
   display: inline-block !important;
   width: 100% !important;
