@@ -1,9 +1,21 @@
-#section003
-  .row
-    .container-fluid
-      .jarallax.img-container
-        img(src="images/home-img03.jpg", alt="Camel Car Hire - Cars Img").jarallax-img
-        div.on-jarallax.text-center
-          h1.text-white Some header 1
-          h2.text-yellow Some header 2
-          h3.text-white Some header 3
+.row
+  .container-fluid
+    .parallax-section.section3
+      span(data-picture,
+      data-alt="Camel Car Hire - Section 03",
+      mr-px-parallax,
+      mr-px-max-px="0.2").mr-px-img
+        span(data-src="../../images/home-img02.jpg",
+        mr-px-size="1920,1200")
+
+
+      .on-parallax.section3
+        .col-md-offset-3.col-md-6.text-vertical-center
+          .wsp-home-center
+            img(src="../../images/camel-logo-355x355.png", alt="Camel Car Hire logo")
+          .wsp-home-header {{'HOME_TITLE_01' | translate}}
+          .wsp-home-subheader {{'HOME_SUBTITLE_01' | translate}}
+          .wsp-section03-btn.col-md-offset-1.col-md-10
+            button(type="button").btn.wsp-btn.wsp-btn-md.btn-danger {{'BTN_BOOK' | translate}}
+            button(type="button").btn.wsp-btn.wsp-btn-md.btn-warning {{'BTN_KNOWMORE' | translate}}
+
