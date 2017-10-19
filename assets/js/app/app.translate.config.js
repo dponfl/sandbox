@@ -102,8 +102,10 @@ function translateConfig ($translateProvider) {
     'HOME_THUMB_02_TEXT': '[En] Наш парк атомобилей состоит из новых машин выпуска 2016 - 2017 годов',
     'HOME_THUMB_03_TITLE': '[En] В аэропорт - бесплатно!',
     'HOME_THUMB_03_TEXT': '[En] Оформите заказ от 14 дней и мы привезем вам машину в аэропорт бесплатно.',
+    'HOME_TITLE_04': 'Our cars',
+    'HOME_SUBTITLE_04': 'Please select the car you like and press "Car booking" button',
     'BTN_KNOWMORE': 'More info',
-    'BTN_BOOK': 'Book a car',
+    'BTN_BOOK': 'Car booking',
 
     // General
     'GENERAL_ELEM_OBJ': 'Object #',
@@ -259,6 +261,8 @@ function translateConfig ($translateProvider) {
     'HOME_THUMB_02_TEXT': 'Наш парк атомобилей состоит из новых машин выпуска 2016 - 2017 годов',
     'HOME_THUMB_03_TITLE': 'В аэропорт - бесплатно!',
     'HOME_THUMB_03_TEXT': 'Оформите заказ от 14 дней и мы привезем вам машину в аэропорт бесплатно.',
+    'HOME_TITLE_04': 'Наши автомобили',
+    'HOME_SUBTITLE_04': 'Выберите понравившейся вам автомобиль и нажмике кнопку "Заказать авто"',
     'BTN_KNOWMORE': 'Узнать больше',
     'BTN_BOOK': 'Заказать авто',
 

@@ -1,2 +1,27 @@
-#section001
-  h1 Section 004
+.row
+  .container-fluid
+    .parallax-section.section1
+      span(data-picture,
+      data-alt="Camel Car Hire - Section 03",
+      mr-px-parallax,
+      mr-px-max-px="0.2").mr-px-img
+        span(data-src="../../images/home-img03.jpg",
+        mr-px-size="1920,1200")
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+        <span data-src="../../images/home-img03.jpg" mr-px-size="1280,960"></span>
+        <![endif]-->
+
+        noscript
+          img(src="../../images/home-img03.jpg", alt="Camel Car Hire - Section 03")
+
+      .on-parallax.section1
+        .col-md-offset-3.col-md-6.text-vertical-center-7
+          .wsp-home-header04 {{'HOME_TITLE_04' | translate}}
+          .wsp-home-subheader04.text-vertical-center-5 {{'HOME_SUBTITLE_04' | translate}}
+          .wsp-section01-btn.col-md-offset-1.col-md-10
+            a(href="#")
+              button(type="button").btn.wsp-btn.wsp-btn-md.btn-danger {{'BTN_BOOK' | translate}}
+            a(href="#know_more")
+              button(type="button").btn.wsp-btn.wsp-btn-md.btn-warning {{'BTN_KNOWMORE' | translate}}
+
