@@ -37,6 +37,7 @@ var paths = {
 			stylesLessAll: '/styles/less/**/*.less',
 			fonts: '/fonts/**/*',
 			images: '/images/**/*',
+			img: '/img/**/*',
 			index: '/index.jade',
 			templates: '/templates/**/*.jade',
 
@@ -80,6 +81,7 @@ var paths = {
 			index: '/',
 			fonts: '/fonts',
 			images: '/images',
+			img: '/img',
 			vendor: '/vendor',
 			templates: '/templates',
 		}
@@ -248,9 +250,14 @@ pipes.buildFontsDev = function () {
 };
 
 // Copy all img files to "dev" section
-pipes.buildImgDev = function () {
+pipes.buildImagesDev = function () {
 	return gulp.src(paths.distApp + paths.src.images)
     		.pipe(gulp.dest(paths.distDev + paths.devDest.images))
+};
+
+pipes.buildImgDev = function () {
+	return gulp.src(paths.distApp + paths.src.img)
+    		.pipe(gulp.dest(paths.distDev + paths.devDest.img))
 };
 
 // Compile index.jade for "dev" section
@@ -301,6 +308,8 @@ pipes.buildIndexDev = function () {
 	var buildFontsDev = pipes.buildFontsDev();
 
 	var buildImgDev = pipes.buildImgDev();
+
+	var buildImagesDev = pipes.buildImagesDev();
 
 		return buildIndexJadeDev
 			.pipe(inject(buildVendorDevJs, {relative: true, name: 'vendor'}))
@@ -359,7 +368,8 @@ gulp.task('watchApp', function () {
     paths.distApp + paths.src.stylesCss,
     paths.distApp + paths.src.stylesLessAll,
     paths.distApp + paths.src.fonts,
-    paths.distApp + paths.src.images
+    paths.distApp + paths.src.images,
+    paths.distApp + paths.src.img
   ]).on('change', function () {
   		return gulp.run('browserSyncReload');
   });

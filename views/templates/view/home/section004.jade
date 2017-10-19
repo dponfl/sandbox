@@ -1,27 +1,32 @@
 .row
   .container-fluid
-    .parallax-section.section1
-      span(data-picture,
-      data-alt="Camel Car Hire - Section 03",
-      mr-px-parallax,
-      mr-px-max-px="0.2").mr-px-img
-        span(data-src="../../images/home-img03.jpg",
-        mr-px-size="1920,1200")
-
-        <!--[if (lt IE 9) & (!IEMobile)]>
-        <span data-src="../../images/home-img03.jpg" mr-px-size="1280,960"></span>
-        <![endif]-->
-
-        noscript
-          img(src="../../images/home-img03.jpg", alt="Camel Car Hire - Section 03")
-
-      .on-parallax.section1
+    .parallax-section.section4
+      .on-parallax.section4
         .col-md-offset-3.col-md-6.text-vertical-center-7
           .wsp-home-header04 {{'HOME_TITLE_04' | translate}}
           .wsp-home-subheader04.text-vertical-center-5 {{'HOME_SUBTITLE_04' | translate}}
-          .wsp-section01-btn.col-md-offset-1.col-md-10
-            a(href="#")
-              button(type="button").btn.wsp-btn.wsp-btn-md.btn-danger {{'BTN_BOOK' | translate}}
-            a(href="#know_more")
-              button(type="button").btn.wsp-btn.wsp-btn-md.btn-warning {{'BTN_KNOWMORE' | translate}}
+        .container.text-vertical-center-7
+          .col-md-4
+            .thumbnail.wsp-thumbnail-border04
+              img(src="../../img/GA001.jpg", alt="Image_GA001").wsp-thumb-img04
+              .wsp-thumbnail-title04 Group A
+              .wsp-thumbnail-text04 Mazda Demio 1350cc, A/C
+              .wsp-thumbnail-details04 Transmission: Auto
+              .wsp-thumbnail-details04 Capacity: 5 adults
+              .wsp-thumbnail-details-highlight04 Price: from 25 euro
+              .wsp-section04-btn
+                button(role="button").btn.wsp-btn.wsp-btn-md.btn-info.text-vertical-center-3 Details
+
+          .col-md-4
+            .thumbnail.wsp-thumbnail-border04
+              span(aria-hidden="true").glyphicon.glyphicon-thumbs-up.wsp-thumbnail-glyphicon04
+              .wsp-thumbnail-title04 {{'HOME_THUMB_02_TITLE' | translate}}
+              .wsp-thumbnail-text04 {{'HOME_THUMB_02_TEXT' | translate}}
+
+          .col-md-4
+            .thumbnail.wsp-thumbnail-border04
+              span(aria-hidden="true").glyphicon.glyphicon-globe.wsp-thumbnail-glyphicon04
+              .wsp-thumbnail-title04 {{'HOME_THUMB_03_TITLE' | translate}}
+              .wsp-thumbnail-text04 {{'HOME_THUMB_03_TEXT' | translate}}
+
 
