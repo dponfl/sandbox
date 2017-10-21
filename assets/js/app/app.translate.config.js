@@ -106,6 +106,9 @@ function translateConfig ($translateProvider) {
     'HOME_SUBTITLE_04': 'Please select the car you like and press "Car booking" button',
     'BTN_KNOWMORE': 'More info',
     'BTN_BOOK': 'Car booking',
+    'BTN_BOOK_CAR': 'Book',
+    'BTN_CAR_SHOW_DETAILS': 'Show details',
+    'BTN_CAR_HIDE_DETAILS': 'Hide details',
 
     // General
     'GENERAL_ELEM_OBJ': 'Object #',
@@ -265,6 +268,10 @@ function translateConfig ($translateProvider) {
     'HOME_SUBTITLE_04': 'Выберите понравившейся вам автомобиль и нажмике кнопку "Заказать авто"',
     'BTN_KNOWMORE': 'Узнать больше',
     'BTN_BOOK': 'Заказать авто',
+    'BTN_BOOK_CAR': 'Забронировать',
+    'BTN_CAR_SHOW_DETAILS': 'Показать подробности',
+    'BTN_CAR_HIDE_DETAILS': 'Скрыть подробности',
+
 
     // General
     'GENERAL_ELEM_OBJ': 'Объект №',

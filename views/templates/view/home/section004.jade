@@ -6,27 +6,64 @@
           .wsp-home-header04 {{'HOME_TITLE_04' | translate}}
           .wsp-home-subheader04.text-vertical-center-5 {{'HOME_SUBTITLE_04' | translate}}
         .container.text-vertical-center-7
-          .col-md-4
-            .thumbnail.wsp-thumbnail-border04
-              img(src="../../img/GA001.jpg", alt="Image_GA001").wsp-thumb-img04
-              .wsp-thumbnail-title04 Group A
-              .wsp-thumbnail-text04 Mazda Demio 1350cc, A/C
-              .wsp-thumbnail-details04 Transmission: Auto
-              .wsp-thumbnail-details04 Capacity: 5 adults
-              .wsp-thumbnail-details-highlight04 Price: from 25 euro
-              .wsp-section04-btn
-                button(role="button").btn.wsp-btn.wsp-btn-md.btn-info.text-vertical-center-3 Details
-
-          .col-md-4
-            .thumbnail.wsp-thumbnail-border04
-              span(aria-hidden="true").glyphicon.glyphicon-thumbs-up.wsp-thumbnail-glyphicon04
-              .wsp-thumbnail-title04 {{'HOME_THUMB_02_TITLE' | translate}}
-              .wsp-thumbnail-text04 {{'HOME_THUMB_02_TEXT' | translate}}
-
-          .col-md-4
-            .thumbnail.wsp-thumbnail-border04
-              span(aria-hidden="true").glyphicon.glyphicon-globe.wsp-thumbnail-glyphicon04
-              .wsp-thumbnail-title04 {{'HOME_THUMB_03_TITLE' | translate}}
-              .wsp-thumbnail-text04 {{'HOME_THUMB_03_TEXT' | translate}}
+          div(data-ng-controller="CarListCtrl as ctrl").row
+            div(data-ng-repeat='group in ctrl.panelGroups').row
+              .col-md-4(data-ng-repeat="car in group")
+                .thumbnail.wsp-thumbnail-border04
+                  img(src="{{car.img}}", alt="{{car.alt}}").wsp-thumb-img04
+                  .wsp-thumbnail-title04 Group {{car.group}}
+                  .wsp-thumbnail-text04 {{car.title}}
+                  .wsp-thumbnail-details04 Transmission: {{car.transmission}}
+                  .wsp-thumbnail-details04 Capacity: {{car.capacity}}
+                  .wsp-thumbnail-details-highlight04 Price: from {{car.priceFrom}} &euro;
+                  div(data-ng-show="car.showDetails").nga-default.nga-stagger.nga-squash-left
+                    .table-responsive
+                      table.table.wsp-tbl-top-head
+                        thead
+                          tr
+                            th High season 01/05-31/10
+                      table.table.wsp-tbl-body
+                        thead
+                          tr
+                            th 1 day
+                            th 2 days
+                            th 3-6 days
+                            th 7-14 days
+                            th 14+ days
+                        tbody
+                          tr
+                            td 70&nbsp;&euro;
+                            td 45&nbsp;&euro;
+                            td 35&nbsp;&euro;
+                            td 30&nbsp;&euro;
+                            td 25&nbsp;&euro;
+                      table.table.wsp-tbl-top-head
+                        thead
+                          tr
+                            th Low season 1/11-30/04
+                      table.table.wsp-tbl-body
+                        thead
+                          tr
+                            th 1 day
+                            th 2 days
+                            th 3-6 days
+                            th 7-14 days
+                            th 14+ days
+                        tbody
+                          tr
+                            td 50&nbsp;&euro;
+                            td 40&nbsp;&euro;
+                            td 25&nbsp;&euro;
+                            td 20&nbsp;&euro;
+                            td 15&nbsp;&euro;
+                  .wsp-section04-btn
+                    button.btn.wsp-btn.wsp-btn-md.btn-danger.text-vertical-center-3
+                      | {{ 'BTN_BOOK_CAR' | translate }}
+                    div(data-ng-show="!car.showDetails")
+                      button(data-ng-click="ctrl.activateDetails(car.ind)").btn.wsp-btn.wsp-btn-sm.btn-default.text-vertical-center-3
+                        | {{ 'BTN_CAR_SHOW_DETAILS' | translate }}
+                    div(data-ng-show="car.showDetails")
+                      button(data-ng-click="ctrl.deactivateDetails(car.ind)").btn.wsp-btn.wsp-btn-sm.btn-default.text-vertical-center-3
+                        | {{ 'BTN_CAR_HIDE_DETAILS' | translate }}
 
 

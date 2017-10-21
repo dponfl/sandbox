@@ -29,6 +29,7 @@ var paths = {
 		src: {
 			dependencies: '/js/dependencies/Other/**/*.js',
 			modules: '/js/app/modules/**/*.js',
+      allJs: '/js/**/*.js',
 			app: '/js/app/**/*.js',
 			other: '/js/other/**/*.js',
 			scripts: '/js/*.js',
@@ -72,6 +73,8 @@ var paths = {
       bootstrapAdditionsCss: '/vendor/bootstrap-additions/dist/bootstrap-additions.css',
       laddaThemelessCss: '/vendor/ladda/dist/ladda-themeless.min.css',
       toasterCss: '/vendor/AngularJS-Toaster/toaster.css',
+			// animateCss: '/vendor/animate.css/animate.css',
+			ngAnimate: '/vendor/angular-animate-css/build/nga.css',
 		},
 		devDest: {
 			scripts: '/js',
@@ -224,6 +227,8 @@ pipes.buildVendorDevCss = function () {
 		gulp.src(paths.distApp + paths.src.laddaThemelessCss)
 			.pipe(gulp.dest(paths.distDev + paths.devDest.stylesVendor)),
 		gulp.src(paths.distApp + paths.src.toasterCss)
+			.pipe(gulp.dest(paths.distDev + paths.devDest.stylesVendor)),
+		gulp.src(paths.distApp + paths.src.ngAnimate)
 			.pipe(gulp.dest(paths.distDev + paths.devDest.stylesVendor))
 	);
 };
@@ -364,6 +369,7 @@ gulp.task('watchApp', function () {
   gulp.watch([
   	paths.distViews + paths.src.templates,
     paths.distApp + paths.src.index,
+    paths.distApp + paths.src.allJs,
     paths.distApp + paths.src.scripts,
     paths.distApp + paths.src.stylesCss,
     paths.distApp + paths.src.stylesLessAll,
