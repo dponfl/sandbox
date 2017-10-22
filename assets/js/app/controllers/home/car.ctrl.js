@@ -3,14 +3,14 @@
 
   angular
     .module('Cameldrive')
-    .controller('CarListCtrl', CarListCtrl);
+    .controller('CarCtrl', CarCtrl);
 
-  CarListCtrl.$inject = ['GeneralConfigService', 'lodash', '$log'];
+  CarCtrl.$inject = ['GeneralConfigService', 'lodash', '$log'];
 
   /* @ngInject */
-  function CarListCtrl(GeneralConfigService, lodash, $log) {
+  function CarCtrl(GeneralConfigService, lodash, $log) {
     var vm = this;
-    vm.title = 'CarListCtrl';
+    vm.title = 'CarCtrl';
 
     vm.panelGroups = [];
     vm.innerGroup = [];
@@ -35,8 +35,20 @@
           alt: 'Image_GA001',
           group: 'A',
           title: 'Mazda Demio 1350cc, A/C',
-          transmission: 'Automatic',
-          capacity: '5 adults',
+          content: [
+            [            {
+              key: 'transmission',
+              label: 'Transmission:',
+              text: 'Manual grgergn erg erg erg gr erge rger gergerg ererger gerg e rge rger',
+            },
+              {
+                key: 'capacity',
+                label: 'Capacity:',
+                text: '2 adults',
+              },
+            ],
+            [],
+          ],
           priceFrom: '15',
           showDetails: false,
         },
@@ -45,8 +57,20 @@
           alt: 'Image_GB001',
           group: 'B',
           title: 'Suzuki Swift 1250cc, A/C',
-          transmission: 'Automatic',
-          capacity: '5 adults',
+          content: [
+            [            {
+              key: 'transmission',
+              label: 'Transmission:',
+              text: 'Automatic',
+            },
+              {
+                key: 'capacity',
+                label: 'Capacity:',
+                text: '4 adults',
+              },
+            ],
+            [],
+          ],
           priceFrom: '15',
           showDetails: false,
         },
@@ -55,8 +79,20 @@
           alt: 'Image_GC001',
           group: 'C',
           title: 'VW Polo 1200cc, A/C',
-          transmission: 'Automatic',
-          capacity: '5 adults',
+          content: [
+            [            {
+              key: 'transmission',
+              label: 'Transmission:',
+              text: 'Automatic',
+            },
+              {
+                key: 'capacity',
+                label: 'Capacity:',
+                text: '5 adults',
+              },
+            ],
+            [],
+          ],
           priceFrom: '20',
           showDetails: false,
         },
@@ -65,8 +101,20 @@
           alt: 'Image_GD001',
           group: 'D',
           title: 'Nissan Juke 1600cc, A/C',
-          transmission: 'Automatic',
-          capacity: '5 adults',
+          content: [
+            [            {
+              key: 'transmission',
+              label: 'Transmission:',
+              text: 'Automatic',
+            },
+              {
+                key: 'capacity',
+                label: 'Capacity:',
+                text: '5 adults',
+              },
+            ],
+            [],
+          ],
           priceFrom: '30',
           showDetails: false,
         },
@@ -75,8 +123,20 @@
           alt: 'Image_GB001',
           group: 'B',
           title: 'Suzuki Swift 1250cc, A/C',
-          transmission: 'Automatic',
-          capacity: '5 adults',
+          content: [
+            [            {
+              key: 'transmission',
+              label: 'Transmission:',
+              text: 'Automatic',
+            },
+              {
+                key: 'capacity',
+                label: 'Capacity:',
+                text: '5 adults',
+              },
+            ],
+            [],
+          ],
           priceFrom: '15',
           showDetails: false,
         },
