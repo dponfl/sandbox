@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
+  font-size: 10px;
 }
 
 /*
@@ -111,6 +112,19 @@ html, body {
   text-align: left;
 }
 
+.wsp-text-right {
+  text-align: right;
+}
+
+.wsp-label {
+  color: @shiny-primary-2;
+  font-size: 1.8rem;
+}
+
+.wsp-text {
+  color: @shiny-primary-1;
+  font-size: 1.5rem;
+}
 
 
 /*
@@ -131,6 +145,10 @@ html, body {
 
 .text-vertical-center-10 {
   padding-top: 10%;
+}
+
+.wsp-form-group {
+  margin-bottom: 3px;
 }
 
 
@@ -389,17 +407,17 @@ html, body {
   padding-bottom: 3%;
   font-size: 1.8rem;
   font-weight: 100;
-  color: @shiny-primary-2;
+  color: @bright-pastel-primary-1;
 }
 
 .wsp-thumbnail-details04 {
   font-size: 1.8rem;
   font-weight: 100;
-  //color: @shiny-primary-0;
+  color: @shiny-primary-2;
 }
 
 .wsp-thumbnail-details-highlight04 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 300;
   color: @bright-pastel-primary-1;
 }
@@ -423,12 +441,28 @@ html, body {
 }
 
 
+
+
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+
+  html, body {
+    font-size: 9px;
+  }
+
+  .wsp-home-center {
+    img {
+      display: block;
+      margin: 0 auto;
+      vertical-align: middle;
+      height: 130px;
+    }
+  }
+
   .wsp-btn-lg {
     font-size: 2.5rem;
   }
@@ -439,6 +473,10 @@ html, body {
 
   .wsp-btn-sm {
     font-size: 1rem;
+  }
+
+  .wsp-label {
+    padding-top: 3px;
   }
 
 }
@@ -457,7 +495,9 @@ html, body {
     font-size: 1.5rem;
   }
 
-
+  .wsp-label {
+    padding-top: 5px;
+  }
 }
 
 /* Large desktop */
@@ -474,5 +514,7 @@ html, body {
     font-size: 2rem;
   }
 
-
+  .wsp-label {
+    padding-top: 5px;
+  }
 }
