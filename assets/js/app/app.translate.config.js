@@ -109,6 +109,8 @@ function translateConfig ($translateProvider) {
     'BTN_BOOK_CAR': 'Book',
     'BTN_CAR_SHOW_DETAILS': 'Show details',
     'BTN_CAR_HIDE_DETAILS': 'Hide details',
+    'HOME_TITLE_05': 'Our Customers Say We Are Awesome :)',
+
 
     // General
     'GENERAL_ELEM_OBJ': 'Object #',
@@ -271,6 +273,8 @@ function translateConfig ($translateProvider) {
     'BTN_BOOK_CAR': 'Забронировать',
     'BTN_CAR_SHOW_DETAILS': 'Показать подробности',
     'BTN_CAR_HIDE_DETAILS': 'Скрыть подробности',
+    'HOME_TITLE_05': 'Наши заказчики говорят, что мы лучшие :)',
+
 
 
     // General
