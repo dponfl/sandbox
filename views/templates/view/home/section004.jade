@@ -62,13 +62,14 @@
                             td 20&nbsp;&euro;
                             td 15&nbsp;&euro;
                   .wsp-section04-btn
-                    button.btn.wsp-btn.wsp-btn-md.btn-danger.text-vertical-center-3
-                      | {{ 'BTN_BOOK_CAR' | translate }}
+                    a(href="#car_booking")
+                      button.btn.wsp-btn.wsp-btn-book.wsp-btn-md.btn-danger
+                        | {{ 'BTN_BOOK_CAR' | translate }}
                     div(data-ng-show="!car.showDetails")
-                      button(data-ng-click="ctrl.activateDetails(car.ind)").btn.wsp-btn.wsp-btn-sm.btn-default.text-vertical-center-3
+                      button(data-ng-click="ctrl.activateDetails(car.ind)").btn.wsp-btn.wsp-btn-sm.btn-default
                         | {{ 'BTN_CAR_SHOW_DETAILS' | translate }}
                     div(data-ng-show="car.showDetails")
-                      button(data-ng-click="ctrl.deactivateDetails(car.ind)").btn.wsp-btn.wsp-btn-sm.btn-default.text-vertical-center-3
+                      button(data-ng-click="ctrl.deactivateDetails(car.ind)").btn.wsp-btn.wsp-btn-sm.btn-default
                         | {{ 'BTN_CAR_HIDE_DETAILS' | translate }}
 
 

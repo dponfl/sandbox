@@ -109,7 +109,12 @@ function translateConfig ($translateProvider) {
     'BTN_BOOK_CAR': 'Book',
     'BTN_CAR_SHOW_DETAILS': 'Show details',
     'BTN_CAR_HIDE_DETAILS': 'Hide details',
+    'BTN_BOOK_PERFORM': 'Perform booking',
+    'HOME_TITLE_06': 'Car booking',
+    'HOME_SUBTITLE_06': 'Fill in the form providing the necessary information and we\'ll contact you to setup details',
     'HOME_TITLE_05': 'Our Customers Say We Are Awesome :)',
+    'DATEPICKER_DATE': 'Enter date',
+    'DATEPICKER_TIME': 'Time',
 
 
     // General
@@ -273,7 +278,12 @@ function translateConfig ($translateProvider) {
     'BTN_BOOK_CAR': 'Забронировать',
     'BTN_CAR_SHOW_DETAILS': 'Показать подробности',
     'BTN_CAR_HIDE_DETAILS': 'Скрыть подробности',
+    'BTN_BOOK_PERFORM': 'Отправить заказ',
+    'HOME_TITLE_06': 'Бронирование авто',
+    'HOME_SUBTITLE_06': 'Заполните форму, указав необходимую информацию и мы свяжемся с вами для уточнения деталей',
     'HOME_TITLE_05': 'Наши заказчики говорят, что мы лучшие :)',
+    'DATEPICKER_DATE': 'Укажите дату',
+    'DATEPICKER_TIME': 'Время',
 
 
 
