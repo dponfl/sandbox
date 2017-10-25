@@ -115,6 +115,8 @@ function translateConfig ($translateProvider) {
     'HOME_TITLE_05': 'Our Customers Say We Are Awesome :)',
     'DATEPICKER_DATE': 'Enter date',
     'DATEPICKER_TIME': 'Time',
+    'LBL_CAR': 'Car type',
+    'HOME_TITLE_07': 'Our offices',
 
 
     // General
@@ -284,6 +286,8 @@ function translateConfig ($translateProvider) {
     'HOME_TITLE_05': 'Наши заказчики говорят, что мы лучшие :)',
     'DATEPICKER_DATE': 'Укажите дату',
     'DATEPICKER_TIME': 'Время',
+    'LBL_CAR': 'Тип автомобиля',
+    'HOME_TITLE_07': 'Наши офисы',
 
 
 

@@ -39,6 +39,9 @@
           section006: {
             templateUrl: 'templates/view/home/section006.html'
           },
+          section007: {
+            templateUrl: 'templates/view/home/section007.html'
+          },
           footer: {
             templateUrl: 'templates/view/footer/footerClient.html'
           },

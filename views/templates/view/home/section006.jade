@@ -74,11 +74,11 @@
               bs-timepicker).form-control#timeEnd
 
           .form-group.clearfix
-            label(for='objectType', translate='LBL_OBJ').col-sm-4.control-label.text-right.wsp-label
+            label(for='carType', translate='LBL_CAR').col-sm-4.control-label.text-right.wsp-label
             .col-sm-6
-              select(name='objectType',
+              select(name='carType',
               data-ng-options='option.val for option in $ctrl.objList track by option.key',
-              data-ng-model='$ctrl.formData.obj').form-control#objectType
+              data-ng-model='$ctrl.formData.obj').form-control#carType
 
           .form-group.clearfix
             label(for='clientInfo', translate='LBL_FIELD_ADDINFO').col-sm-4.control-label.text-right.wsp-label
