@@ -117,6 +117,8 @@ function translateConfig ($translateProvider) {
     'DATEPICKER_TIME': 'Time',
     'LBL_CAR': 'Car type',
     'HOME_TITLE_07': 'Our offices',
+    'HOME_SUBTITLE_07_01': 'Camel Car Hire, Office 1',
+    'HOME_SUBTITLE_07_02': 'Camel Car Hire, Office 2',
 
 
     // General
@@ -288,6 +290,8 @@ function translateConfig ($translateProvider) {
     'DATEPICKER_TIME': 'Время',
     'LBL_CAR': 'Тип автомобиля',
     'HOME_TITLE_07': 'Наши офисы',
+    'HOME_SUBTITLE_07_01': 'Camel Car Hire, офис 1',
+    'HOME_SUBTITLE_07_02': 'Camel Car Hire, офис 2',
 
 
 

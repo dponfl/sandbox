@@ -42,12 +42,20 @@ function camelDriveMaps() {
     animation:google.maps.Animation.BOUNCE,
   });
 
-  var infowindow = new google.maps.InfoWindow({
-    content:"Camel Car Hire, Main office"
+  var infowindow01 = new google.maps.InfoWindow({
+    content:"<h4>Camel Car Hire, Office 1</h4><h5>Glad to see you at: Some address here...</h5>"
+  });
+
+  var infowindow02 = new google.maps.InfoWindow({
+    content:"<h4>Camel Car Hire, Office 2</h4><h5>Glad to see you at: Some address here...</h5>"
   });
 
   google.maps.event.addListener(marker01, 'click', function() {
-    infowindow.open(map01,marker01);
+    infowindow01.open(map01,marker01);
+  });
+
+  google.maps.event.addListener(marker02, 'click', function() {
+    infowindow02.open(map02,marker02);
   });
 
 } // camelDriveMaps
