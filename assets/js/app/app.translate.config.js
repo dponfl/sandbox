@@ -121,6 +121,9 @@ function translateConfig ($translateProvider) {
     'HOME_SUBTITLE_07_02': 'Camel Car Hire, Office 2',
     'HOME_SUBTITLE_07_A': '(click the "bouncing" sign for additional information)',
 
+    // Booking terms
+    'BOOK_HEADER': 'VEHICLE LEASE TERMS',
+
 
     // General
     'GENERAL_ELEM_OBJ': 'Object #',
@@ -294,6 +297,9 @@ function translateConfig ($translateProvider) {
     'HOME_SUBTITLE_07_01': 'Camel Car Hire, офис 1',
     'HOME_SUBTITLE_07_02': 'Camel Car Hire, офис 2',
     'HOME_SUBTITLE_07_A': '(кликните на "прыгающий" указатель для дополнительной информации)',
+
+    // Booking terms
+    'BOOK_HEADER': 'УСЛОВИЯ АРЕНДЫ АВТОМОБИЛЯ',
 
 
 
