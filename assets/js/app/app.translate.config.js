@@ -119,6 +119,7 @@ function translateConfig ($translateProvider) {
     'HOME_TITLE_07': 'Our offices',
     'HOME_SUBTITLE_07_01': 'Camel Car Hire, Office 1',
     'HOME_SUBTITLE_07_02': 'Camel Car Hire, Office 2',
+    'HOME_SUBTITLE_07_A': '(click the "bouncing" sign for additional information)',
 
 
     // General
@@ -292,6 +293,7 @@ function translateConfig ($translateProvider) {
     'HOME_TITLE_07': 'Наши офисы',
     'HOME_SUBTITLE_07_01': 'Camel Car Hire, офис 1',
     'HOME_SUBTITLE_07_02': 'Camel Car Hire, офис 2',
+    'HOME_SUBTITLE_07_A': '(кликните на "прыгающий" указатель для дополнительной информации)',
 
 
 
