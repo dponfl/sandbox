@@ -14,13 +14,15 @@ function initMap() {
 };
 
 function camelDriveMaps() {
+
   var mapProp01 = {
-    center: {lat: 34.823686, lng: 32.390973},
+    center: {lat: 34.747895, lng: 32.425499},
     zoom:15,
   };
 
+
   var mapProp02 = {
-    center: {lat: 34.747895, lng: 32.425499},
+    center: {lat: 34.823686, lng: 32.390973},
     zoom:15,
   };
 

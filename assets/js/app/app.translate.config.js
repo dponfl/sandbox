@@ -125,6 +125,11 @@ function translateConfig ($translateProvider) {
     'BOOK_HEADER': 'VEHICLE LEASE TERMS',
 
 
+    // Discount card
+    'DISCOUNT_HEADER': 'DISCOUNT CARD',
+
+
+
     // General
     'GENERAL_ELEM_OBJ': 'Object #',
     'GENERAL_ELEM_MORE_DETAILS': 'More details...',
@@ -300,6 +305,10 @@ function translateConfig ($translateProvider) {
 
     // Booking terms
     'BOOK_HEADER': 'УСЛОВИЯ АРЕНДЫ АВТОМОБИЛЯ',
+
+
+    // Discount card
+    'DISCOUNT_HEADER': 'ДИСКОНТНАЯ ПРОГРАММА',
 
 
 
