@@ -37,10 +37,12 @@
           content: 'Message 1'
         },
 */
+/*
         {
           header: 'Some header 2',
           content: 'Message sfsfdkl ljsflsjdfl lkfjsldfjsdlf lsdlsdfjlsdf lkslfdflsdj jsdlfkjsdf'
         },
+*/
       ];
 
       vm.panels = [
