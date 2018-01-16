@@ -16,7 +16,18 @@
 
     vm.config = _ms.getConfig();
 
-    vm.panelGroups = [];
+    vm.panelGroups = [
+      [
+        {
+          info: 'flksdfjsdsfjsl lkjsladkfsdfj lsdjfsfjsdf lskdslfjsdlfsjd lksflksdkfjslf lskfsd',
+          name: 'Some Name',
+          position: 'Title',
+        },
+      ],
+    ];
+
+    return;
+
     vm.innerGroup = [];
     vm.panels = [];
     vm.panelsAllLangs = [];
