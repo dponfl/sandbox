@@ -1,9 +1,25 @@
+/*
+*** Fonts ***
+ */
+
+@font-face {
+  font-family: 'daxlinecyrtf-mediumregular';
+  src: url('../../../fonts/daxlinecyrtf-medium_regular-webfont.eot');
+  src: url('../../../fonts/daxlinecyrtf-medium_regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../fonts/daxlinecyrtf-medium_regular-webfont.woff2') format('woff2'),
+  url('../../../fonts/daxlinecyrtf-medium_regular-webfont.woff') format('woff'),
+  url('../../../fonts/daxlinecyrtf-medium_regular-webfont.ttf') format('truetype'),
+  url('../../../fonts/daxlinecyrtf-medium_regular-webfont.svg#daxlinecyrtf-mediumregular') format('svg');
+}
+
+
 html, body {
   margin: 0;
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
   font-size: 10px;
+  font-family: daxlinecyrtf-mediumregular, Arial, Helvetica;
 }
 
 /*
@@ -81,6 +97,7 @@ html, body {
   text-decoration: solid !important;
 }
 
+
 /*
 *** Buttons general ***
  */
@@ -88,21 +105,21 @@ html, body {
 .wsp-btn-lg {
   padding-left: 50px !important;
   padding-right: 50px !important;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 4rem;
 }
 
 .wsp-btn-md {
   padding-left: 35px !important;
   padding-right: 35px !important;
-  font-weight: 500;
+  font-weight: 900;
   font-size: 3rem;
 }
 
 .wsp-btn-sm {
   padding-left: 15px !important;
   padding-right: 15px !important;
-  font-weight: 300;
+  font-weight: 900;
   font-size: 2rem;
 }
 
@@ -127,13 +144,6 @@ html, body {
     border: black double 7px;
   }
 }
-
-/*
-.wsp-btn-book:hover {
-  background-color: #6acc14;
-  color: black;
-}
-*/
 
 ////////////////////////////////
 
