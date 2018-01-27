@@ -128,6 +128,7 @@ function translateConfig ($translateProvider) {
     'HOME_1D': 'day',
     'HOME_2D': 'days',
     'HOME_5D': 'days',
+    'TTT': '../../images/logo-orange.png',
 
     // Booking terms
     'BOOK_HEADER': 'VEHICLE LEASE TERMS',
@@ -318,6 +319,7 @@ function translateConfig ($translateProvider) {
     'HOME_1D': 'день',
     'HOME_2D': 'дня',
     'HOME_5D': 'дней',
+    'TTT': '../../images/block02-2.png',
 
     // Booking terms
     'BOOK_HEADER': 'УСЛОВИЯ АРЕНДЫ АВТОМОБИЛЯ',
