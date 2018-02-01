@@ -186,6 +186,18 @@ html, body {
   padding-top: 10%;
 }
 
+.text-vertical-center-12 {
+  padding-top: 12%;
+}
+
+.text-vertical-center-15 {
+  padding-top: 15%;
+}
+
+.text-vertical-center-20 {
+  padding-top: 20%;
+}
+
 .wsp-form-group {
   margin-bottom: 3px;
 }
@@ -353,11 +365,11 @@ html, body {
 
 .section4 {
   min-height: @section4_height;
-  background-color: @dark-pastel-primary-2;
+  background-color: @block04;
 }
 
 .wsp-home-header04 {
-  color: @full-colors-primary-0;
+  color: @block04_title;
   text-align: center;
   font-weight: 700;
   font-size: 6rem;
@@ -399,14 +411,27 @@ html, body {
 }
 
 .wsp-thumbnail-border04 {
-  background-color: @dark-pastel-primary-1;
-  color: gold;
-  border: 0;
-  border-radius: 10px;
+  background-color: @block04_item;
+  color: black;
+  border: @block04 double 20px;
+  border-radius: 30px;
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-  box-shadow: 4px 4px 5px @dark-primary-1;
+  position: relative;
+  span {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+}
+
+.wsp-block04-badge {
+  color: @block04_item;
+  background-color: @block04;
+  border-radius: 50%;
 }
 
 .wsp-thumbnail-title04 {
@@ -439,7 +464,8 @@ html, body {
 }
 
 .wsp-thumb-img04 {
-  padding-top: 10px;
+  border: @block04 solid 5px;
+  border-radius: 20px;
 }
 
 .wsp-tbl-top-head {

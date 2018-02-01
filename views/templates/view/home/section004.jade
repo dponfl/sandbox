@@ -2,14 +2,13 @@ div(data-ng-controller="CarCtrl as ctrl").row
   .container-fluid
     .parallax-section.section4
       .on-parallax.section4
-        .col-md-offset-2.col-md-8.text-vertical-center-3
+        .col-md-offset-2.col-md-8.text-vertical-center-5
           .wsp-home-header04 {{'HOME_TITLE_04' | translate}}
           div(role="alert",
           data-ng-repeat="highlight in ctrl.highlights").alert.alert-warning.wsp-alert-block
             .wsp-alert04-header {{ highlight.header }}
             .wsp-alert04-content {{ highlight.content }}
-          .wsp-home-subheader04.text-vertical-center-5 {{'HOME_SUBTITLE_04' | translate}}
-        .container.text-vertical-center-7
+        .container.text-vertical-center-12
           .row
             div(data-ng-repeat='group in ctrl.panelGroups').row
               .col-md-4(data-ng-repeat="car in group")
@@ -19,8 +18,8 @@ div(data-ng-controller="CarCtrl as ctrl").row
                   data-lightbox='{{car.img.dataLightbox}}',
                   data-title='{{car.img.dataTitle}}')
                     img(data-ng-src='{{car.img.src}}').wsp-thumb-img04
+                    span.badge.wsp-block04-badge {{car.group}}
 
-                  .wsp-thumbnail-title04 {{car.group}}
                   .wsp-thumbnail-text04 {{car.title}}
 
                   .wsp-thumbnail-details-highlight04 {{'LBL_PRICE_FROM' | translate}} {{car.time_group_5_l}} &euro;
