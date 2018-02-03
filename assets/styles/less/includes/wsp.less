@@ -417,12 +417,17 @@ html, body {
 }
 
 .wsp-section04-btn {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
-  .wsp-btn {
+  a,div {
     display: inline-block !important;
-    border-radius: 100px !important;
-    margin: 5% 3% !important;
+    .wsp-btn {
+      border-radius: 10px !important;
+      margin: 5% 3% !important;
+      font-weight: 900;
+      font-size: 1.2rem;
+    }
+
   }
 }
 
@@ -476,10 +481,10 @@ html, body {
 .wsp-thumbnail-details04 {
   font-size: 1.8rem;
   font-weight: 100;
-  color: green;
 }
 
 .wsp-thumbnail-details-highlight04 {
+  padding-top: 40px;
   font-size: 2.5rem;
   font-weight: 900;
   color: @block04_text;
@@ -490,14 +495,15 @@ html, body {
   border-radius: 20px;
 }
 
-.wsp-tbl-top-head {
-  margin-top: 10%;
-  margin-bottom: 0;
-  font-size: 2rem;
-}
-
 .wsp-tbl-body {
   font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.wsp-tbl-column-one {
+  width: 25%;
+  text-align: center;
+  background-color: red;
 }
 
 .wsp-block-details-01 {
@@ -536,15 +542,30 @@ html, body {
 
 .wsp-details-main {
   //border: solid red 1px;
-  img {
-    display: inline-block;
+
+  .wsp-block04-img-wrapper-01 {
     width: 20px;
+    display: inline-block;
+    padding-left: 1px;
+    img {
+      width: 100%;
+    }
   }
+
+  .wsp-block04-img-wrapper-03 {
+    width: 60px;
+    display: inline-block;
+    padding-left: 1px;
+    img {
+      width: 100%;
+    }
+  }
+
   .wsp-details-main-text-wrapper {
     //border: solid blue 1px;
+    padding: 0 2px 0 2px;
     display: inline-block;
     .wsp-details-main-text {
-      padding: 0 2px 0 2px;
       text-align: center;
       font-weight: 900;
       font-size: 1.5rem;

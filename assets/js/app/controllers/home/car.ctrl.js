@@ -75,17 +75,33 @@
               {
                 key: 'transmission',
                 label: 'Transmission:',
-                text: 'Manual grgergn erg erg erg gr erge rger gergerg ererger gerg e rge rger',
+                text: 'Automatic',
               },
               {
                 key: 'capacity',
                 label: 'Capacity:',
-                text: '2 adults',
+                text: '4_1',
               },
             ],
             [],
           ],
-          contentObj: {},
+          contentObj: {
+            transmission: {
+              key: 'transmission',
+              label: 'Transmission:',
+              text: 'Automatic',
+            },
+            capacity: {
+              key: 'capacity',
+              label: 'Capacity:',
+              text: '4_1',
+            },
+            climat: {
+              key: 'climat',
+              label: 'Capacity:',
+              text: 'A/C',
+            },
+          },
           priceFrom: '15',
           showDetails: false,
         },
@@ -118,17 +134,33 @@
               {
                 key: 'transmission',
                 label: 'Transmission:',
-                text: 'Automatic',
+                text: 'Автомат',
               },
               {
                 key: 'capacity',
                 label: 'Capacity:',
-                text: '4 adults',
+                text: '5_0',
               },
             ],
             [],
           ],
-          contentObj: {},
+          contentObj: {
+            transmission: {
+              key: 'transmission',
+              label: 'Transmission:',
+              text: 'Автомат',
+            },
+            capacity: {
+              key: 'capacity',
+              label: 'Capacity:',
+              text: '5_0',
+            },
+            climat: {
+              key: 'climat',
+              label: 'Capacity:',
+              text: 'A/C',
+            },
+          },
           priceFrom: '15',
           showDetails: false,
         },
