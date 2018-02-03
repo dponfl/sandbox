@@ -97,6 +97,18 @@ html, body {
   text-decoration: solid !important;
 }
 
+/*
+*** General
+ */
+
+.wsp-no-padding-left {
+  padding-left: 0 !important;
+}
+
+.wsp-no-padding-right {
+  padding-right: 0 !important;
+}
+
 
 /*
 *** Buttons general ***
@@ -156,12 +168,12 @@ html, body {
 }
 
 .wsp-label {
-  color: @shiny-primary-2;
+  color: @block04_text;
   font-size: 1.8rem;
 }
 
 .wsp-text {
-  color: @shiny-primary-1;
+  color: @block04_text;
   font-size: 1.5rem;
 }
 
@@ -169,6 +181,14 @@ html, body {
 /*
 ***   Sections   ***
  */
+
+.text-vertical-center-1 {
+  padding-top: 1%;
+}
+
+.text-vertical-center-2 {
+  padding-top: 2%;
+}
 
 .text-vertical-center-3 {
   padding-top: 3%;
@@ -376,6 +396,7 @@ html, body {
   text-shadow: 4px 4px 5px #000000;
 }
 
+/*
 .wsp-home-subheader04 {
   color: @full-colors-primary-1;
   text-align: center;
@@ -384,6 +405,7 @@ html, body {
   margin-bottom: 7%;
   text-shadow: 4px 4px 5px #000000;
 }
+*/
 
 .wsp-home-center04 {
   img {
@@ -447,20 +469,20 @@ html, body {
   padding-top: 3%;
   padding-bottom: 3%;
   font-size: 1.8rem;
-  font-weight: 100;
-  color: @bright-pastel-primary-1;
+  font-weight: 900;
+  color: @block04_text;
 }
 
 .wsp-thumbnail-details04 {
   font-size: 1.8rem;
   font-weight: 100;
-  color: @shiny-primary-2;
+  color: green;
 }
 
 .wsp-thumbnail-details-highlight04 {
-  font-size: 3rem;
-  font-weight: 300;
-  color: @bright-pastel-primary-1;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: @block04_text;
 }
 
 .wsp-thumb-img04 {
@@ -500,6 +522,34 @@ html, body {
   text-align: justify;
   font-weight: 500;
   font-size: 2.5rem;
+}
+
+.wsp-block-border-left {
+  border-left: solid @block04_text 2px;
+}
+
+
+.wsp-block-border-right {
+  border-right: solid @block04_text 2px;
+}
+
+
+.wsp-details-main {
+  //border: solid red 1px;
+  img {
+    display: inline-block;
+    width: 20px;
+  }
+  .wsp-details-main-text-wrapper {
+    //border: solid blue 1px;
+    display: inline-block;
+    .wsp-details-main-text {
+      padding: 0 2px 0 2px;
+      text-align: center;
+      font-weight: 900;
+      font-size: 1.5rem;
+    }
+  }
 }
 
 /*
