@@ -42,32 +42,32 @@ html, body {
   z-index: -999;
   padding: 0;
   margin: 0;
-}
-
-.mr-px-img img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .on-parallax {
   background-size: cover;
   background-color: rgba(39,35,51,0.5);
-  .section1 {
-    height: @section1_height;
-  };
-  .section2 {
-    height: @section2_height;
-  };
-  .section3 {
-    height: @section3_height;
-  };
-  .section4 {
-    height: @section4_height;
-  };
 }
+
+.section1 {
+  min-height: @section1_height;
+};
+.section2 {
+  min-height: @section2_height;
+};
+.section3 {
+  min-height: @section3_height;
+};
+.section4 {
+  min-height: @section4_height;
+};
 
 /*
 ***   Navbar   ***
