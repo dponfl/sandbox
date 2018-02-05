@@ -25,17 +25,17 @@ div(data-ng-controller="CarCtrl as ctrl").row
                   .col-md-12.col-sm-12.col-xs-12.wsp-no-padding-left.wsp-no-padding-right
                     .col-md-4.col-sm-4.col-xs-4.wsp-no-padding-left.wsp-no-padding-right.wsp-details-main
                       .wsp-block04-img-wrapper-01
-                        img(src="/images/gear.png", alt="Camel Car Hire - Section 04-1")
+                        img(data-ng-src="/images/gear.png", alt="Camel Car Hire - Section 04-1")
                       .wsp-details-main-text-wrapper
                         .wsp-details-main-text {{car.contentObj.transmission.text}}
                     .col-md-4.col-sm-4.col-xs-4.wsp-block-border-left.wsp-block-border-right.wsp-no-padding-left.wsp-no-padding-right.wsp-details-main
                       .wsp-block04-img-wrapper-01
-                        img(src="/images/climat.png", alt="Camel Car Hire - Section 04-2")
+                        img(data-ng-src="/images/climat.png", alt="Camel Car Hire - Section 04-2")
                       .wsp-details-main-text-wrapper
                         .wsp-details-main-text {{car.contentObj.climat.text}}
                     .col-md-4.col-sm-4.col-xs-4.wsp-no-padding-left.wsp-no-padding-right.wsp-details-main
                       .wsp-block04-img-wrapper-03
-                        img(src="/images/{{car.contentObj.capacity.text}}.png", alt="Camel Car Hire - Section 04-3").wsp-details-main-img03
+                        img(data-ng-src="/images/{{car.contentObj.capacity.text}}.png", alt="Camel Car Hire - Section 04-3").wsp-details-main-img03
 
                   .wsp-thumbnail-details-highlight04 {{'LBL_PRICE_FROM' | translate}} {{car.time_group_5_l}} &euro;
 

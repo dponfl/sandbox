@@ -23,6 +23,16 @@
           name: 'Some Name',
           position: 'Title',
         },
+        {
+          info: 'длпцпцкпо зукопзукпжукоп ждукпуокпзукоп дукопукопукоп зоузкпоукзпоук щоукзпщоукпзо',
+          name: 'Имя Фамилия',
+          position: 'профессия',
+        },
+        {
+          info: 'oirjgerjg pojergpoerjg ojregpej ojerpojrgorg pojergpo pojepoj pojerpgojg ojerpog pojrge',
+          name: 'Some Name-2',
+          position: 'Title-2',
+        },
       ],
     ];
 
