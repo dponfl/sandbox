@@ -254,7 +254,7 @@ function translateConfig ($translateProvider) {
     'OBJ_DESCRIPTION_PLACEHOLDER': 'Введите общее объекта',
     'OBJ_INFO_PLACEHOLDER': 'Введите дополнительную информацию по объекту',
     'BTN_FIND': 'Найти',
-    'BTN_CLR': 'Очистить',
+    'BTN_CLR': 'Очистить форму',
     'AV_REQ': 'reqRu',
 
     // Callback or request forms
@@ -302,9 +302,9 @@ function translateConfig ($translateProvider) {
     'BTN_BOOK_CAR': 'ЗАБРОНИРОВАТЬ',
     'BTN_CAR_SHOW_DETAILS': 'УЗНАТЬ БОЛЬШЕ',
     'BTN_CAR_HIDE_DETAILS': 'ВЕРНУТЬСЯ',
-    'BTN_BOOK_PERFORM': 'ОТПРАВИТЬ ЗАКАЗ',
-    'HOME_TITLE_06': 'ЗАБРОНИРОВАТЬ',
-    'HOME_SUBTITLE_06': 'Заполните форму, указав необходимую информацию и мы свяжемся с вами для уточнения деталей',
+    'BTN_BOOK_PERFORM': 'ЗАБРОНИРОВАТЬ',
+    'HOME_TITLE_06': 'Бронирование автомобиля',
+    'HOME_SUBTITLE_06': 'Заполните форму, указав необходимую информацию и мы свяжемся с Вами для уточнения деталей',
     'HOME_TITLE_05': 'Наши заказчики говорят, что мы лучшие :)',
     'DATEPICKER_DATE': 'Укажите дату',
     'DATEPICKER_TIME': 'Время',
