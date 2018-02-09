@@ -106,7 +106,7 @@ function translateConfig ($translateProvider) {
     'HOME_SUBTITLE_04': 'Please select the car you like and press "Book" button',
     'LBL_PRICE_FROM': 'Price: from',
     'BTN_KNOWMORE': 'MORE INFO',
-    'BTN_BOOK': 'CAR BOOKING',
+    'BTN_BOOK': 'BOOK NOW!',
     'BTN_BOOK_CAR': 'BOOK',
     'BTN_CAR_SHOW_DETAILS': 'MORE INFO',
     'BTN_CAR_HIDE_DETAILS': 'GO BACK',
