@@ -130,6 +130,8 @@ function translateConfig ($translateProvider) {
     'HOME_2D': 'days',
     'HOME_5D': 'days',
     'BLOCK_02_PIC_02': '/images/block02-2-en.png',
+    'BLK_07_CONTACT_FORM_TITLE': 'CONTACT US',
+    'BTN_CONTACT_US': 'SEND',
 
     // Booking terms
     'BOOK_HEADER': 'VEHICLE LEASE TERMS',
@@ -322,6 +324,8 @@ function translateConfig ($translateProvider) {
     'HOME_2D': 'дня',
     'HOME_5D': 'дней',
     'BLOCK_02_PIC_02': '/images/block02-2-ru.png',
+    'BLK_07_CONTACT_FORM_TITLE': 'СВЯЖИТЕСЬ С НАМИ',
+    'BTN_CONTACT_US': 'ОТПРАВИТЬ',
 
     // Booking terms
     'BOOK_HEADER': 'УСЛОВИЯ АРЕНДЫ АВТОМОБИЛЯ',
