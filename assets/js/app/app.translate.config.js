@@ -110,7 +110,7 @@ function translateConfig ($translateProvider) {
     'BTN_BOOK_CAR': 'BOOK THIS CAR',
     'BTN_CAR_SHOW_DETAILS': 'MORE INFO',
     'BTN_CAR_HIDE_DETAILS': 'GO BACK',
-    'BTN_BOOK_PERFORM': 'BOOKING THIS CAR',
+    'BTN_BOOK_PERFORM': 'BOOK THIS CAR',
     'HOME_TITLE_06': 'CAR BOOKING',
     'HOME_SUBTITLE_06': 'Fill in the form providing the necessary information and we\'ll contact you to setup details',
     'HOME_TITLE_05': 'Our Customers Say We Are Awesome :)',
