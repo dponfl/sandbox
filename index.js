@@ -21,7 +21,7 @@ app.use(express.static(__dirname + '/dist.dev'));
 
 app.get('/', function(request, response) {
   // response.render(__dirname + '/dist.dev/index.html');
-  response.render('index.html');
+  response.render('index');
 });
 
 app.listen(app.get('port'), function() {
