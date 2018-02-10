@@ -4,7 +4,7 @@ var path    = require("path");
 
 app.set('port', (process.env.PORT || 5000));
 
-// app.set('view options', {layout: false});
+app.set('view options', {layout: false});
 
 app.use(express.static(__dirname + '/dist.dev'));
 
@@ -12,12 +12,12 @@ app.use(express.static(__dirname + '/dist.dev'));
 // app.set('views', __dirname + '/views');
 // app.set('view engine', 'ejs');
 
-// app.engine('html', require('ejs').renderFile);
+app.engine('html', require('ejs').renderFile);
 
 app.get('/', function(req, res) {
   // res.type('html');
   // res.send(__dirname + '/dist.dev/index.html');
-  res.sendFile(path.join(__dirname+'/dist.dev/index.html'));
+  res.render(path.join(__dirname+'/dist.dev/index.html'));
 });
 
 app.listen(app.get('port'), function() {
