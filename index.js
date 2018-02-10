@@ -20,7 +20,8 @@ app.use(express.static(__dirname + '/dist.dev'));
 app.engine('html', require('ejs').renderFile);
 
 app.get('/', function(request, response) {
-  response.render(__dirname + '/dist.dev/index.html');
+  // response.render(__dirname + '/dist.dev/index.html');
+  response.render('/dist.dev/index.html');
 });
 
 app.listen(app.get('port'), function() {
