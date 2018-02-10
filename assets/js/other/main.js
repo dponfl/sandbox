@@ -24,7 +24,7 @@ $(document).ready(function() {
   });
 
 
-  $(".navbar a, footer a").on('click', function(event) {
+  $(".navbar a").on('click', function(event) {
 
     $('html, body').animate({
       scrollTop: 0

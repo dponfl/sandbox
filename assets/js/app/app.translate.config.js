@@ -35,6 +35,7 @@ function translateConfig ($translateProvider) {
     'FOOTER_SUBSCRIBE_TITLE': 'Subscribe to our news',
     'FOOTER_SUBSCRIBE_YOUTUBE': 'YouTube',
     'FOOTER_SUBSCRIBE_FACEBOOK': 'Facebook',
+    'FOOTER_SUBSCRIBE_INST': 'Instagram',
     'FOOTER_SUBSCRIBE_TWEETER': 'Tweeter',
     'FOOTER_SUBSCRIBE_GOOGLEPLUS': 'Google Plus',
     'FOOTER_DEVELOPER': 'Developed by',
@@ -132,6 +133,8 @@ function translateConfig ($translateProvider) {
     'BLOCK_02_PIC_02': '/images/block02-2-en.png',
     'BLK_07_CONTACT_FORM_TITLE': 'CONTACT US',
     'BTN_CONTACT_US': 'SEND',
+    'LBL_COMMENT_TYPE': 'Comment type',
+    'LBL_COMMENT_BODY': 'Message',
 
     // Booking terms
     'BOOK_HEADER': 'VEHICLE LEASE TERMS',
@@ -216,6 +219,7 @@ function translateConfig ($translateProvider) {
     'FOOTER_SUBSCRIBE_TITLE': 'Подписаться на новости',
     'FOOTER_SUBSCRIBE_YOUTUBE': 'YouTube',
     'FOOTER_SUBSCRIBE_FACEBOOK': 'Facebook',
+    'FOOTER_SUBSCRIBE_INST': 'Instagram',
     'FOOTER_SUBSCRIBE_TWEETER': 'Tweeter',
     'FOOTER_SUBSCRIBE_GOOGLEPLUS': 'Google Plus',
     'FOOTER_DEVELOPER': 'Разработано',
@@ -326,6 +330,8 @@ function translateConfig ($translateProvider) {
     'BLOCK_02_PIC_02': '/images/block02-2-ru.png',
     'BLK_07_CONTACT_FORM_TITLE': 'СВЯЖИТЕСЬ С НАМИ',
     'BTN_CONTACT_US': 'ОТПРАВИТЬ',
+    'LBL_COMMENT_TYPE': 'Тип сообщения',
+    'LBL_COMMENT_BODY': 'Сообщение',
 
     // Booking terms
     'BOOK_HEADER': 'УСЛОВИЯ АРЕНДЫ АВТОМОБИЛЯ',
