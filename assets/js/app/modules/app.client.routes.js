@@ -60,21 +60,7 @@
             templateUrl: 'templates/view/footer/footerClient.html'
           },
         },
-        url: '/conditions',
-      })
-      .state('discount', {
-        views: {
-          header: {
-            templateUrl: 'templates/view/header/headerClient.html'
-          },
-          section001: {
-            templateUrl: 'templates/view/discount/section001.html',
-          },
-          footer: {
-            templateUrl: 'templates/view/footer/footerClient.html'
-          },
-        },
-        url: '/discount',
+        url: '/',
       });
 
 

@@ -137,7 +137,25 @@ function translateConfig ($translateProvider) {
     'LBL_COMMENT_BODY': 'Message',
 
     // Booking terms
-    'BOOK_HEADER': 'VEHICLE LEASE TERMS',
+    'BOOK_HEADER': 'Vehicle lease terms',
+    'BOOK_001': 'The people between 21 and 70 years old who have the driving experience of at least 3 yearly period may be the clients of Camel Car Rentals.',
+    'BOOK_002': 'Any vehicle reservation procedure shall be rated against the vehicle category but not a particular vehicle brand.',
+    'BOOK_003': 'Any payments shall be made to the rates established by the company in cash or n account. Prices are to be charged in Euro, inclusive of VAT.',
+    'BOOK_004': 'The vehicle lease value includes as follows:',
+    'BOOK_004_1': 'Delivering the vehicle to the place within the area of a city wherein the office is located.',
+    'BOOK_004_2': 'Unlimited mileage',
+    'BOOK_004_3': 'Insurance T.P.I-(Third Party Insurance) OSAGO and franchise. The sum of such franchise shall be rated against the leased vehicle category.',
+    'BOOK_005': 'The vehicle shall be returned with its fuel tank fully primed. Fuel shall not be subject to the lease value but paid out additionally. Fuel charges may be refunded to the client in full provided that the latter will return the vehicle with its fuel tank fully primed',
+    'BOOK_005_1': '(a partially filled fuel tank will not be repaid).',
+    'BOOK_006': 'If the vehicle leasing period is to be extended, the client shall notify the company within 24 hours prior to termination.',
+    'BOOK_007': 'If the vehicle is returned before the appointed date, the demand balance will not be refunded, in particular:',
+    'BOOK_007_1': 'With the vehicle being taken on lease for maximum 7 days – a balance for the last 2 days.',
+    'BOOK_007_2': 'With the vehicle being taken on lease for the period exceeding 7 days – a half of the value rated for the remaining lease period.',
+    'BOOK_008': 'Comprehensive F.C.D.W-(Full Collision Damage Waiver), CASCO without franchise, shall not be provided to the client under the age of 23 years old other than C.D.W-(Collision Damage Waiver with reduce excess), OSAGO and reduced franchise.',
+    'BOOK_009': 'The client shall pay for parking and make charges for any vehicle operating penalties.',
+    'BOOK_010': 'Should a vehicle ignition key be lost, the client shall pay its value.',
+    'BOOK_011': 'Any information about extended services and optional equipment prices (i.e. proving an additional driver, delivering the vehicle to an airport, using GPS, child car seat etc.) may be received from a representative of Camel Car Rentals.',
+    'BOOK_000': '___________',
 
 
     // Discount card
@@ -334,8 +352,24 @@ function translateConfig ($translateProvider) {
     'LBL_COMMENT_BODY': 'Сообщение',
 
     // Booking terms
-    'BOOK_HEADER': 'УСЛОВИЯ АРЕНДЫ АВТОМОБИЛЯ',
-
+    'BOOK_HEADER': 'Условия аренды автомобиля',
+    'BOOK_001': 'Клиентами компании  «Camel Car Rentals» могут быть лица в возрасте от 21  до 70 лет, с водительским  стажем не менее 3 лет.',
+    'BOOK_002': 'Бронирование происходит по категории, а не по конкретной марке автомобиля.',
+    'BOOK_003': 'Оплата услуг производится по тарифам компании, наличным или безналичным расчетом. Цены указаны в Евро с учетом НДС.',
+    'BOOK_004': 'В стоимость аренды автомобиля входит:',
+    'BOOK_004_1': 'Доставка автомобиля в любую точку, в пределах города, где расположен наш офис.',
+    'BOOK_004_2': 'Неограниченный пробег.',
+    'BOOK_004_3': 'Страховка T.P.I-(Third Party Insurance) ОСАГО с франшизой. Сумма франшизы зависит от категории арендуемого автомобиля.',
+    'BOOK_005': 'Автомобиль сдается с полным топливным баком. Топливо не входит в  стоимость аренды автомобиля и оплачивается дополнительно.  Денежные  средства за топливо возвращаются клиенту полностью, только при сдаче автомобиля  с полным баком',
+    'BOOK_005_1': '(за частично заполненный  топливный бак деньги не возвращаются).',
+    'BOOK_006': 'При продлении срока аренды автомобиля, клиент должен сообщить представителю  компании не позднее, чем за 24 часа до окончания срока аренды.',
+    'BOOK_007': 'При досрочной сдаче клиентом автомобиля, остаток денежных средств не возвращается:',
+    'BOOK_007_1': 'При аренде до 7 дней, за последние 2 дня.',
+    'BOOK_007_2': 'При аренде свыше 7 дней, половина от стоимости за оставшиеся дни аренды.',
+    'BOOK_008': 'Полное страхование  F.C.D.W-(Full Collision Damage Waiver) КАСКО без франшизы не оформляется на клиентов до 23 лет, за исключением страховки C.D.W-(Collision Damage Waiver with reduce excess) ОСАГО с уменьшенной франшизой.',
+    'BOOK_009': 'Клиент обязан за свой счет оплачивать парковку и любые штрафы, наложенные в процессе эксплуатации автомобиля.',
+    'BOOK_010': 'В случае утери ключа от автомобиля,  клиент обязан оплатить его стоимость.',
+    'BOOK_011': 'Информацию о ценах на дополнительные услуги и оборудование (дополнительный водитель, доставка автомобиля в аэропорт, GPS, детское кресло и. т. п.)  можно получить у представителя компании «Camel Car Rentals».',
 
     // Discount card
     'DISCOUNT_HEADER': 'ДИСКОНТНАЯ ПРОГРАММА',
