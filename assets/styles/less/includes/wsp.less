@@ -838,7 +838,7 @@ html, body {
 }
 
 .wsp-cond-header {
-  color: @cond-header;
+  color: @cond_header;
   margin-top: 5%;
   margin-bottom: 3%;
   padding-left: 5px;
@@ -849,7 +849,7 @@ html, body {
 }
 
 .wsp-cond-subheader {
-  color: @cond-subheader;
+  color: @cond_subheader;
   text-align: center;
   font-weight: 500;
   font-size: 3rem;
@@ -875,6 +875,115 @@ html, body {
     }
   }
 }
+
+/*
+***   Insurance   ***
+ */
+
+.ins_section-1 {
+  min-height: @ins_height;
+  background-image: url("/images/block07.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center top;
+}
+
+.wsp-ins-header {
+  color: @ins_header;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 6rem;
+}
+
+.wsp-ins-subheader {
+  color: @ins_subheader;
+  text-align: left;
+  padding-top: 35px;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.wsp-ins-text {
+  font-weight: 300;
+  font-size: 2.5rem;
+  padding-top: 5px;
+  text-align: left;
+  &.text-highlight {
+    color: red;
+  }
+  span {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-weight: 300 !important;
+    font-size: 2.5rem !important;
+    &.text-highlight {
+      color: red;
+    }
+  }
+}
+
+.wsp-ins {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wsp-ins-tbl01-body {
+  margin-top: 20px;
+  tr {
+    font-weight: 300;
+    font-size: 2.5rem;
+    th {
+      margin: 5px;
+      border: solid @block04_tbl_brd 5px;
+      padding: 2px 50px;
+      text-align: center;
+      background-color: @block04_tbl_th;
+      color: @block04_tbl_th_text;
+    }
+    td {
+      margin: 5px;
+      border: solid @block04_tbl_brd 5px;
+      padding: 2px 20px;
+      text-align: center;
+      background-color: @block04_tbl_td;
+      color: @block04_tbl_td_text;
+    }
+  }
+}
+
+.wsp-ins-tbl02-body {
+  margin-top: 20px;
+  tr {
+    font-weight: 300;
+    font-size: 2.5rem;
+    th {
+      margin: 5px;
+      border: solid @block04_tbl_brd 5px;
+      padding: 2px 50px;
+      text-align: center;
+      background-color: @block04_tbl_th;
+      color: @block04_tbl_th_text;
+    }
+    td {
+      margin: 5px;
+      border: solid @block04_tbl_brd 5px;
+      padding: 2px 20px;
+      text-align: center;
+      background-color: @block04_tbl_td;
+      color: @block04_tbl_td_text;
+    }
+  }
+}
+
+.wsp-ins-tbl-column-one {
+  width: 40%;
+}
+
 
 
 /*
@@ -999,10 +1108,65 @@ html, body {
 
   .wsp-cond-text {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    span {
+      font-weight: 300 !important;
+      font-size: 1.5rem !important;
+    }
+  }
+
+  /*
+  *** Insurance
+   */
+
+  .wsp-ins-header {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  .wsp-ins-subheader {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .wsp-ins-text {
+    font-weight: 300;
+    font-size: 1.5rem;
     span {
       font-weight: 300 !important;
       font-size: 1rem !important;
+    }
+  }
+
+  .wsp-ins-tbl01-body {
+    margin-top: 10px;
+    tr {
+      font-weight: 300;
+      font-size: 1.2rem;
+      th {
+        margin: 5px;
+        padding: 2px 5px;
+      }
+      td {
+        margin: 5px;
+        padding: 2px 5px;
+      }
+    }
+  }
+
+  .wsp-ins-tbl02-body {
+    margin-top: 10px;
+    tr {
+      font-weight: 300;
+      font-size: 1.2rem;
+      th {
+        margin: 5px;
+        padding: 2px 5px;
+      }
+      td {
+        margin: 5px;
+        padding: 2px 5px;
+      }
     }
   }
 
