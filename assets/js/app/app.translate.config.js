@@ -8,12 +8,6 @@ translateConfig.$inject = ['$translateProvider'];
 function translateConfig ($translateProvider) {
   $translateProvider.translations('en', {
 
-    // Header
-    'HEADER_OFFICE_PHONE': 'Office',
-    'HEADER_MOBILE_PHONE': 'Mobile',
-    'HEADER_SKYPE_PHONE': 'Skype',
-    'HEADER_SEND_MESSAGE_1': 'Send',
-    'HEADER_SEND_MESSAGE_2': 'message',
 
     // Admin
     'HEADER_ADMIN_LOGIN': 'Login',
