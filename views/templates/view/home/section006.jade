@@ -7,7 +7,8 @@ div(data-ng-controller='CarBookCtrl as ctrl').row
 
       .container.text-vertical-center-7
         form(novalidate='novalidate',
-        data-ng-submit='ctrl.book()')
+          name='ctrl.bookForm',
+          data-ng-submit='ctrl.book()')
           .form-group.clearfix
             label(for='clientName', translate='LBL_FIELD_NAME').col-sm-4.control-label.text-right.wsp-label
             .col-sm-4
@@ -104,7 +105,7 @@ div(data-ng-controller='CarBookCtrl as ctrl').row
             .wsp-section06-btn
               button(type='submit',
               translate='BTN_BOOK_PERFORM').btn.wsp-btn.wsp-btn-md.wsp-btn-book
-              button(data-ng-click='ctrl.clear()',
+              a(data-ng-click='ctrl.clear()',
               translate='BTN_CLR').btn.wsp-btn.wsp-btn-md.wsp-btn-details
 
 
