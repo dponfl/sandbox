@@ -88,7 +88,7 @@ function translateConfig ($translateProvider) {
 
 
     // Home - Main
-    'HOME_TITLE_01': 'Camel Car Hire',
+    'HOME_TITLE_01': 'CAMEL CAR HIRE',
     'HOME_SUBTITLE_01': 'We will not disappoint you',
     'HOME_TITLE_02': 'Camel Car Hire - we\'ll do our best for you',
     'HOME_SUBTITLE_02': 'If you ask our clients they reply: the perfect cars for the reasonable price',
@@ -345,7 +345,7 @@ function translateConfig ($translateProvider) {
 
 
     // Home - Main
-    'HOME_TITLE_01': 'Camel Car Hire',
+    'HOME_TITLE_01': 'РУССКИЙ ПРОКАТ МАШИН',
     'HOME_SUBTITLE_01': 'Мы не разочаруем вас',
     'HOME_TITLE_02': 'Camel Car Hire - лучшее для Вас!',
     'HOME_SUBTITLE_02': 'Спросите наших клиентов о Camel Car Hire и они вам ответят: разумные цены при безупречном качестве',
