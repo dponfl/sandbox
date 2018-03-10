@@ -19,17 +19,30 @@
     vm.panelGroups = [
       [
         {
-          info: 'flksdfjsdsfjsl lkjsladkfsdfj lsdjfsfjsdf lskdslfjsdlfsjd lksflksdkfjslf lskfsd',
+          info: 'flksdfjsdsfjsl lkjsladkfsdfj lsdjfsfjsdf lskdslfjsdlfsjd lksflksdkfjslf ' +
+          'org ;lkgergjo pojergojp ojpeorjgerpogj ojpeorgjerpgoj ojeprgojergo pojergojp ojeprgj' +
+          'pojerger pojergoe ojerpgojergpoj pojerpgojerpogj opjperogjrpeoj ojerpgojerpoj' +
+          'pergjeprgojre pojergojerpobj pojergpoerjgpo jpoewjrperogj opjepgojergpo pojergpeoj pojerg' +
+          'erpgoejgp jpoerjgperoj pojewprgojerpgj pojeprogjegpj pojerpgojepoj poejrpgjpj poewrjgpoergj' +
+          'jpoergjerogj pojewrpgojergpoj pojergperjgpeoj pojewprgjepobj pojergpjrgejgp lskfsd',
           name: 'Some Name',
           position: 'Title',
         },
         {
-          info: 'длпцпцкпо зукопзукпжукоп ждукпуокпзукоп дукопукопукоп зоузкпоукзпоук щоукзпщоукпзо',
+          info: 'длпцпцкпо зукопзукпжукоп ждукпуокпзукоп дукопукопукоп зоузкпоукзпоук ' +
+          'цуащцуза зщозцущопзауо зщоцуазщоцу щоцуазщцуа зщцоуазцущо щзоцуазцуа щоцузащцоу' +
+          'цузаоцузащ оцуазщоцуазщ щзоцузащоцузащо щцзуащоцуазщо зоцуащоцуащоз щоцзуаоцузщ' +
+          'озцуащоцузао зщоцузащоцузщаоцо зщцоуазцщуоазщо зщоцуазщцоз озщуоазцщуаозщаоу' +
+          'цузащоцуазщо зщоцзащоцуазщо зщоцузаоцузаозщ зцщуаозцуащоз озцщоазцуащо' +
+          'зцущаоцузо зщцузащоцазщо зщоцузащоцуазо зщоцузащоцузащо цзущаоцзуащоцу щоукзпщоукпзо',
           name: 'Имя Фамилия',
           position: 'профессия',
         },
         {
-          info: 'oirjgerjg pojergpoerjg ojregpej ojerpojrgorg pojergpo pojepoj pojerpgojg ojerpog pojrge',
+          info: 'oirjgerjg pojergpoerjg ojregpej ojerpojrgorg pojergpo pojepoj pojerpgojg ojerpog ' +
+          'ewfpjwepfe pojwefpwjfe ojwepjwef jpfojwepf pojwfpowfofwje pjpowfjeefj opfojwefoew' +
+          'pwejfpweof pojwefpowejf pojwpofjwef ojwpfowef ojpojwfe pjwefpwejf ojwpfjw ' +
+          'pojwef pojwepf jwfojwefpo pojwefpowfe ojwpfjwe pojewfwef pojrge',
           name: 'Some Name-2',
           position: 'Title-2',
         },
