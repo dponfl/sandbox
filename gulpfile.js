@@ -39,6 +39,7 @@ var paths = {
 			fonts: '/fonts/**/*',
 			images: '/images/**/*',
 			img: '/img/**/*',
+			favicon: '/images/favicons/**/*',
 			index: '/index.jade',
 			templates: '/templates/**/*.jade',
 
@@ -85,6 +86,7 @@ var paths = {
 			fonts: '/fonts',
 			images: '/images',
 			img: '/img',
+      favicon: '/images/favicons',
 			vendor: '/vendor',
 			templates: '/templates',
 		}
@@ -260,6 +262,12 @@ pipes.buildImagesDev = function () {
     		.pipe(gulp.dest(paths.distDev + paths.devDest.images))
 };
 
+// Copy all img files to "dev" section
+pipes.buildFaviconDev = function () {
+	return gulp.src(paths.distApp + paths.src.favicon)
+    		.pipe(gulp.dest(paths.distDev + paths.devDest.favicon))
+};
+
 pipes.buildImgDev = function () {
 	return gulp.src(paths.distApp + paths.src.img)
     		.pipe(gulp.dest(paths.distDev + paths.devDest.img))
@@ -315,6 +323,8 @@ pipes.buildIndexDev = function () {
 	var buildImgDev = pipes.buildImgDev();
 
 	var buildImagesDev = pipes.buildImagesDev();
+
+	var buildFaviconDev = pipes.buildFaviconDev();
 
 		return buildIndexJadeDev
 			.pipe(inject(buildVendorDevJs, {relative: true, name: 'vendor'}))
